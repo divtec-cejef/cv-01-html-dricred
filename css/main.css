@@ -1,20 +1,38 @@
 * {
-    color: cyan;
+    color: chartreuse;
+    box-sizing: border-box;
+}
+header {
+    padding: 20px;
+}
+
+header .logo {
+    font-size: 3rem;
+    font-weight: bold;
+    text-decoration: underline;
+    text-transform: uppercase;
+}
+
+header .logo img
+{
+    float: left;
+    border: 2px dashed cyan;
+    padding: 10px;
+    margin-right: 40px;
+    margin-bottom: 60px;
+    box-shadow: 4px 4px 10px cyan;
 }
 body {
-    font-family: Arial, sans-serif;
-    font-weight: 400;
-    font-size: 1.2rem;
-    line-height: 1.4;
-    color: greenyellow;
-    background-color: #100c0d;
-    max-width: 600px;
-    margin: 0 auto;
-    padding-bottom: 200px;
+    background-color: black;
 }
 h1 {
    color: blueviolet;
 }
 a {
-    color: chartreuse;
+    color: cyan;
+}
+img {
+    max-width: 100%;
+    height: auto;
+    width: auto;
 }
