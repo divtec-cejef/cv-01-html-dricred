@@ -1,38 +1,24 @@
 * {
-    color: chartreuse;
-    box-sizing: border-box;
+    color: cyan;
 }
 header {
-    padding: 20px;
-}
-
-header .logo {
-    font-size: 3rem;
-    font-weight: bold;
-    text-decoration: underline;
-    text-transform: uppercase;
-}
-
-header .logo img
-{
-    float: left;
-    border: 2px dashed cyan;
-    padding: 10px;
-    margin-right: 40px;
-    margin-bottom: 60px;
-    box-shadow: 4px 4px 10px cyan;
+    background-color: blueviolet;
+    color: ghostwhite;
+    padding: 10px 15px;
+    margin: 1.5% 2%;
+    border: 12px solid chartreuse;
+    border-bottom-color: forestgreen;
+    font-size: 2em;
 }
 body {
     background-color: black;
+    background-size: 800px;
+    max-width: 50%;
+    margin: auto;
+    padding-bottom: 200px;
 }
-h1 {
-   color: blueviolet;
+h1, h1 + p
+{
+    text-align: center;
 }
-a {
-    color: cyan;
-}
-img {
-    max-width: 100%;
-    height: auto;
-    width: auto;
-}
+
