@@ -19,14 +19,15 @@ header {
     border-bottom-color: forestgreen;
     font-size: 2em;
 }
-header .logo img
-{
+header .logo {
+    font-size: 50px;
+}
+header .logo img {
     float: left;
-    border: 2px dashed greenyellow;
-    padding: 10px;
-    margin-right: 40px;
-    margin-bottom: 60px;
-    box-shadow: 4px 4px 10px greenyellow;
+    border: 2px dashed chartreuse;
+    padding: 5px;
+    margin-right: 50px;
+    box-shadow: 4px 4px 10px chartreuse;
 }
 body {
     background-color: black;
@@ -37,6 +38,14 @@ body {
     max-width: 50%;
     margin: auto;
     padding-bottom: 200px;
+}
+a {
+    color: turquoise;
+    text-decoration: none;
+}
+
+a:hover {
+    color: aqua;
 }
 h1, h1 + p
 {
