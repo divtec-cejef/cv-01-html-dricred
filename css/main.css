@@ -1,3 +1,12 @@
+/* rubik-burned-regular - latin */
+@font-face {
+    font-family: 'Rubik Burned';
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/rubik-burned-v1-latin-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
 * {
     color: cyan;
 }
@@ -10,9 +19,21 @@ header {
     border-bottom-color: forestgreen;
     font-size: 2em;
 }
+header .logo img
+{
+    float: left;
+    border: 2px dashed greenyellow;
+    padding: 10px;
+    margin-right: 40px;
+    margin-bottom: 60px;
+    box-shadow: 4px 4px 10px greenyellow;
+}
 body {
     background-color: black;
-    background-size: 800px;
+    background-image: url('../image/football.jpg');
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: 25%;
     max-width: 50%;
     margin: auto;
     padding-bottom: 200px;
@@ -20,5 +41,9 @@ body {
 h1, h1 + p
 {
     text-align: center;
+    color: chartreuse;
+}
+h2 {
+    color: greenyellow;
 }
 
