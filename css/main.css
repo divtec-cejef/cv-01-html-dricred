@@ -40,12 +40,12 @@ body {
     padding-bottom: 200px;
 }
 a {
-    color: turquoise;
+    color: yellow;
     text-decoration: none;
 }
 
 a:hover {
-    color: aqua;
+    color: gold;
 }
 h1, h1 + p
 {
